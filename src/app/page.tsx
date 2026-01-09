@@ -1,7 +1,13 @@
+import { Header } from "@/components/header"
+import { Welcome } from "@/components/presentation"
+import { Skills } from "@/components/skills"
+
 const Home = () => {
-  return(
-    <main className="w-full h-screen bg-gray-100 flex justify-center items-center">
-      <p>hello</p>
+  return (
+    <main className="min-h-screen flex flex-col bg-gray-100 dark:bg-zinc-900">
+      <Header />
+      <Welcome />
+      <Skills />
     </main>
   )
 }
