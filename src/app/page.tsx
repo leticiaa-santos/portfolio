@@ -1,5 +1,10 @@
+import { About } from "@/components/about"
+import { Contact } from "@/components/contact"
+import { Experience } from "@/components/experience"
+import { Formation } from "@/components/formation"
 import { Header } from "@/components/header"
 import { Welcome } from "@/components/presentation"
+import { Projects } from "@/components/projects"
 import { Skills } from "@/components/skills"
 
 const Home = () => {
@@ -8,6 +13,11 @@ const Home = () => {
       <Header />
       <Welcome />
       <Skills />
+      <About />
+      <Experience />
+      <Formation />
+      <Projects />
+      <Contact />
     </main>
   )
 }

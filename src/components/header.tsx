@@ -4,11 +4,9 @@ import Link from "next/link"
 
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { ThemeToggle } from "./theme-toggle"
@@ -30,31 +28,31 @@ export function Header() {
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/docs">Sobre</Link>
+              <Link href="#about">Sobre</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/docs">Experiência</Link>
+              <Link href="#experience">Experiência</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/docs">Formação</Link>
+              <Link href="#formation">Formação</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/docs">Projetos</Link>
+              <Link href="#projects">Projetos</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="/docs">Contato</Link>
+              <Link href="#contact">Contato</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           

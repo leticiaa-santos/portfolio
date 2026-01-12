@@ -12,7 +12,7 @@ import {
 export function Skills() {
   const plugin = React.useRef(
     Autoplay({
-      delay: 0,
+      delay: 2000,
       stopOnInteraction: false,
     })
   )
@@ -26,6 +26,13 @@ export function Skills() {
     "FIGMA",
     "GIT",
     "HTML",
+    "PYTHON",
+    "TYPESCRIPT",
+    "DJANGO",
+    "BACKEND",
+    "NEXT",
+    "REACT",
+    ""
   ]
 
   return (
