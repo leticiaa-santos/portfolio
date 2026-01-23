@@ -152,7 +152,7 @@ export function Formation() {
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className="w-[40px]" />
+              <TableHead className="w-10" />
               <TableHead>Formação</TableHead>
               <TableHead>Status</TableHead>
               <TableHead>Período</TableHead>
@@ -230,7 +230,7 @@ export function Formation() {
                             </div>
                           </section>
 
-                          {/* Projetos (opcional) */}
+                          {/* Projetos */}
                           {formation.details.projects && (
                             <section>
                               <h4 className="font-semibold mb-2">Projetos</h4>
