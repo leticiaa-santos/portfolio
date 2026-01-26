@@ -36,7 +36,7 @@ export function Skills() {
   ]
 
   return (
-    <div className="w-full border-y py-6 overflow-hidden">
+    <div className="w-full border-y py-6 overflow-hidden z-1">
       <Carousel
         plugins={[plugin.current]}
         opts={{

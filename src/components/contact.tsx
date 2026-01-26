@@ -12,7 +12,7 @@ export function Contact() {
     return(
         <div id="contact">
             <p className="text-center mt-20 font-bold text-6xl mb-10">
-                Contact
+                Contatos
             </p>
 
             <p className="text-center mb-10">

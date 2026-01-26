@@ -18,6 +18,7 @@ import {
   ChevronDown,
 } from "lucide-react"
 import { Badge } from "./ui/badge"
+import React from "react"
 
 const iconMap = {
   graduation: GraduationCap,
@@ -143,9 +144,9 @@ export function Formation() {
   ]
 
   return (
-    <div id="formation" className="px-4">
+    <div id="formation" className="px-4 pt-10">
       <p className="text-center mt-20 font-bold text-6xl mb-20">
-        Formation
+        Formação
       </p>
 
       <div className="max-w-5xl mx-auto">
@@ -167,7 +168,7 @@ export function Formation() {
               const isOpen = openRow === index
 
               return (
-                <>
+                <React.Fragment key={formation.formation}>
                   {/* Linha principal */}
                   <TableRow
                     key={index}
@@ -202,7 +203,7 @@ export function Formation() {
                   {/* Linha expandida */}
                   {isOpen && (
                     <TableRow>
-                      <TableCell colSpan={6} className="p-0">
+                      <TableCell colSpan={6}>
                         <div className="p-6 bg-muted/30 space-y-6 text-sm">
 
                           {/* Atividades */}
@@ -245,7 +246,7 @@ export function Formation() {
                       </TableCell>
                     </TableRow>
                   )}
-                </>
+                </React.Fragment>
               )
             })}
           </TableBody>

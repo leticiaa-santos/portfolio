@@ -4,7 +4,7 @@ import Moldura from "../../public/mold_purple.png"
 
 export function Welcome() {
   return (
-    <section className="flex-1 flex items-center justify-center px-20">
+    <section id="presentation" className="flex-1 flex items-center justify-center px-20 pt-32 mb-10">
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-20 max-w-6xl w-full items-center">
         
@@ -14,11 +14,9 @@ export function Welcome() {
             alt=""/>
         </div>
 
-        
-
         <div>
           <h2 className="text-6xl font-bold">
-            Hi, I’m Letícia.
+            Oi, eu sou Letícia
           </h2>
 
           <h3 className="text-4xl text-zinc-400 mt-2">
