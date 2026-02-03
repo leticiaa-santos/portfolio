@@ -1,7 +1,7 @@
 
-import { Acadspace } from "./acadspace"
-import { Kanban } from "./kanban"
-import { Petlar } from "./petlar"
+import { Acadspace } from "./projects/acadspace"
+import { Kanban } from "./projects/kanban"
+import { Petlar } from "./projects/petlar"
 
 export function Projects() {
   return(

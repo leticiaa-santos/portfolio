@@ -21,7 +21,7 @@ export function Contact() {
 
             <section className="grid grid-cols-1 md:grid-cols-2 gap-10 m-20 mx-70">
                 <Link href={"https://instagram.com.br"} target="_blank">
-                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-800">
+                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-200 dark:hover:bg-neutral-800">
                         <div className="flex items-center gap-4">
                             <Instagram />
                             <p>Instagram</p> 
@@ -30,7 +30,7 @@ export function Contact() {
                     </Card>
                 </Link>
                 <Link href={"https://linkedin.com.br"} target="_blank">
-                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-800">
+                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-200 dark:hover:bg-neutral-800">
                         <div className="flex items-center gap-4">
                             <Linkedin />
                             <p>Linkedin</p> 
@@ -38,8 +38,8 @@ export function Contact() {
                         <ArrowUpRight />
                     </Card>
                 </Link>
-                <Link href={"https://google.com.br"} target="_blank">
-                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-800">
+                <Link href={"https://github.com/leticiaa-santos"} target="_blank">
+                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-200 dark:hover:bg-neutral-800">
                         <div className="flex items-center gap-4">
                             <Github />
                             <p>GitHub</p> 
@@ -48,7 +48,7 @@ export function Contact() {
                     </Card>
                 </Link>
                 <Link href={"https://google.com.br"} target="_blank">
-                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-800">
+                    <Card className="px-5 py-4 flex items-center justify-between flex-row transition-all duration-300 hover:bg-neutral-200 dark:hover:bg-neutral-800 ">
                         <div className="flex items-center gap-4">
                             <Mail />
                             <p>E-mail</p> 
