@@ -45,7 +45,7 @@ export function Skills() {
         }}
         className="w-full"
       >
-        <CarouselContent className="flex gap-10">
+        <CarouselContent className="flex gap-20">
           {skills.map((skill, index) => (
             <CarouselItem
               key={index}

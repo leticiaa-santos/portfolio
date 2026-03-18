@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Perfil from "../../public/mold_purple.png"
+import Perfil from "../../public/perfil.png"
 
 export function About() {
   return(
